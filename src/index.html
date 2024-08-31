@@ -1,55 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<link>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Document</title>
     <link rel="stylesheet" href="output.css">
     <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="../assets/">
     <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
-</link>
-
+</head>
 <body>
-    <!-- start of main div  -->
-    <div class="flex m-10 p-3 rounded-xl bg-slate-400 justify-evenly">
-        <!-- start of nav div  -->
-        <div class="h-full w-24 bg-white rounded-3xl p-3 flex-col space-y-24">
-            <div class="bg-yellow-500 rounded-xl">this is for logo </div>
-            <div>
-                <div class="bg-slate-300 rounded-xl size-10 flex justify-center items-center mx-auto">
-                    <i class="fa-solid fa-bars fa-sm" style="color: #000000;"></i>
-                </div>
-                <div class="flex rounded-xl size-10 justify-center items-center mx-auto">
-                    <i class="fa-regular fa-lightbulb fa-sm" style="color: #000000;"></i>
-                </div>
-                <div class="flex rounded-xl size-10 justify-center items-center mx-auto ">
-                    <i class="fa-solid fa-music fa-sm" style="color: #000000;"></i>
-                </div>
-                <div class="flex rounded-xl size-10 justify-center items-center mx-auto">
-                    <i class="fa-solid fa-temperature-three-quarters fa-sm" style="color: #000000;"></i>
-                </div>
-                <div class="flex rounded-xl size-10 justify-center items-center mx-auto">
-                    <i class="fa-solid fa-shield-halved fa-sm" style="color: #000000;"></i>
-                </div>
-                <div class="flex rounded-xl size-10 justify-center items-center mx-auto">
-                    <i class="fa-regular fa-bell fa-sm" style="color: #000000;"></i>
-                </div>
-            </div>
-            <div class="bg-yellow-400 rounded-xl size-10 justify-center items-center mx-auto">
+    <div class="grid grid-cols-6 grid-rows-2">
+        <div  class="col-span-1 row-span-2  bg-yellow-300 ">
+            <div class="h-full w-24 bg-white rounded-3xl p-3 flex-col space-y-24">
+                <div class="bg-yellow-500 rounded-xl">this is for logo </div>
                 <div>
-                    <i class="fa-solid fa-gear fa-sm" style="color: #000000;"></i>
-                </div> is for setting and profile icon
+                    <div class="bg-slate-300 rounded-xl size-10 flex justify-center items-center mx-auto">
+                        <i class="fa-solid fa-bars fa-sm" style="color: #000000;"></i>
+                    </div>
+                    <div class="flex rounded-xl size-10 justify-center items-center mx-auto">
+                        <i class="fa-regular fa-lightbulb fa-sm" style="color: #000000;"></i>
+                    </div>
+                    <div class="flex rounded-xl size-10 justify-center items-center mx-auto ">
+                        <i class="fa-solid fa-music fa-sm" style="color: #000000;"></i>
+                    </div>
+                    <div class="flex rounded-xl size-10 justify-center items-center mx-auto">
+                        <i class="fa-solid fa-temperature-three-quarters fa-sm" style="color: #000000;"></i>
+                    </div>
+                    <div class="flex rounded-xl size-10 justify-center items-center mx-auto">
+                        <i class="fa-solid fa-shield-halved fa-sm" style="color: #000000;"></i>
+                    </div>
+                    <div class="flex rounded-xl size-10 justify-center items-center mx-auto">
+                        <i class="fa-regular fa-bell fa-sm" style="color: #000000;"></i>
+                    </div>
+                </div>
+                <div class="bg-yellow-400 rounded-xl size-10 justify-center items-center mx-auto">
+                    <div>
+                        <i class="fa-solid fa-gear fa-sm" style="color: #000000;"></i>
+                    </div> is for setting and profile icon
+                </div>
             </div>
         </div>
-        <!-- end of nav div  -->
-
-        <!-- start of pic div  -->
-        <div class="flex rounded-xl p-3flex-row">
-
-            <div class="flex flex-col ">
-                <div class="flex rounded-3xl p-3 justify-between items-start  h-3/5     
+        <div  class="col-span-4 row-auto bg-cyan-400">
+            <div class="flex rounded-3xl p-3 justify-between items-start  h-3/5     
                             bg-local bg-bottom bg-no-repeat bg-cover bg-[url('../assets/lroom1.jpg')] ">
 
                     <div class="bg-white rounded-xl flex flex-row items-center-center justify-evenly w-16">
@@ -93,56 +86,133 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex flex-row h-2/5">
-                    <div class="flex rounded-xl  flex-col w-7/12
-                                bg-local bg-contain bg-bottom bg-no-repeat bg-[url('../assets/vm.webp')] space-y-3 justify-between">
-
-                        <div class="rounded-xl flex justify-between p-3">
-                            <div class="flex flex-col">
-                                <div class="flex space-x-2">
-                                    <p>Bedroom</p>
-                                    <div>
-                                        <i class="fa-solid fa-chevron-down fa-2xs" style="color: #000000;"></i>
-                                    </div>
-                                </div>
-                                <p>Robot vacuum cleaner</p>
+        </div>
+        <div  class="col-span-1 row-auto bg-cyan-500">
+            <div class="flex rounded-xl bg-slate-500  p-3 flex-col h-3/5">
+                <div class="flex flex-row items-center justify-between">
+                    <p>Rooms</p>
+                    <div class="border-solid border-slate-950 border-2 rounded-xl size-4 flex justify-center items-center">
+                        <i class="fa-solid fa-info fa-2xs" style="color: #000000;"></i>
+                    </div>
+                </div>
+                <div>
+                    <div class="rounded-xl flex justify-between items-center">
+                        <div class="flex justify-evenly items-center">
+                            <div class="bg-white bg-opacity-80 rounded-full flex items-center justify-center size-8">
+                                <i class="fa-solid fa-bed" style="color: #000000;"></i>
                             </div>
-                            <div class="bg-white bg-opacity-90 rounded-full w-7 h-5 flex justify-center items-center">
-                                <i class="fa-solid fa-toggle-on" style="color: #000000;"></i></i>
+                            <div>
+                                <p>Bedroom</p>
+                                <p>3 device(-s)</p>
                             </div>
                         </div>
-                        <div class="bg-cyan-400 rounded-xl">device and label</div>
-                        <div class="rounded-xl flex flex-row p-3">
-                            <div class="flex flex-row p-3 bg-slate-700 bg-opacity-40 rounded-3xl justify-between items-center">
-                                <div class="bg-white bg-opacity-80 rounded-full flex items-center justify-center size-8">
-                                    <i class="bi bi-box"></i> 
-                                </div>
+                        <div>
+                            <i class="fa-solid fa-chevron-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                    <div class="rounded-xl flex justify-between items-center">
+                        <div class="flex justify-evenly items-center">
+                            <div class="bg-white bg-opacity-80 rounded-full flex items-center justify-center size-8">
+                                <i class="fa-solid fa-utensils" style="color: #000000;"></i>
+                            </div>
+                            <div>
+                                <P>Kitchen</P>
+                                <P>2 device(-s)</P>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-chevron-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center  bg-white bg-opacity-50 rounded-full">
+                        <div class="flex justify-evenly items-center">
+                            <div class="bg-white bg-opacity-80 rounded-full flex items-center justify-center size-8">
+                                <i class="fa-solid fa-couch" style="color: #000000;"></i>
+                            </div>
+                            <div>
+                                Living room
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-chevron-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                    <div class="rounded-xl flex justify-between items-center">
+                        <div class="flex flex-row items-center">
+                            <div class="bg-white bg-opacity-80 rounded-full flex items-center justify-center size-8">
+                                <i class="fa-solid fa-bath" style="color: #000000;"></i>
+                            </div>
+                            <div>
+                                <p>Bedroom</p>
+                                <p>1 device(-s)</p>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-chevron-right" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex bg-black rounded-full justify-center">
+                    <div>
+                        <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
+                    </div>
+                    <p class="text-white">ADD Room</p>
+                </div>
+            </div>
+        </div>
+        <div  class="col-span-3 row-auto bg-cyan-600">
+            
+                <div class="flex rounded-xl  flex-col w-7/12
+                            bg-local bg-contain bg-bottom bg-no-repeat bg-[url('../assets/vm.webp')] space-y-3 justify-between">
+
+                    <div class="rounded-xl flex justify-between p-3">
+                        <div class="flex flex-col">
+                            <div class="flex space-x-2">
+                                <p>Bedroom</p>
                                 <div>
-                                    <p>75m<sup>2</sup></p>
-                                    <p>Area cleaned</p>
+                                    <i class="fa-solid fa-chevron-down fa-2xs" style="color: #000000;"></i>
                                 </div>
                             </div>
-                            <div class="flex flex-row p-3 bg-slate-700 bg-opacity-40 rounded-3xl justify-between items-center">
-                                <div class="bg-white bg-opacity-80 rounded-full flex items-center justify-center size-8">
-                                    <i class="fa-regular fa-clock" style="color: #000000;"></i>
-                                </div>
-                                <div>
-                                    <p>30 min</p>
-                                    <p>Cleaning time</p>
-                                </div>
+                            <p>Robot vacuum cleaner</p>
+                        </div>
+                        <div class="bg-white bg-opacity-90 rounded-full w-7 h-5 flex justify-center items-center">
+                            <i class="fa-solid fa-toggle-on" style="color: #000000;"></i></i>
+                        </div>
+                    </div>
+                    <div class="bg-cyan-400 rounded-xl">device and label</div>
+                    <div class="rounded-xl flex flex-row p-3">
+                        <div class="flex flex-row p-3 bg-slate-700 bg-opacity-40 rounded-3xl justify-between items-center">
+                            <div class="bg-white bg-opacity-80 rounded-full flex items-center justify-center size-8">
+                                <i class="bi bi-box"></i> 
                             </div>
-                            <div class="flex flex-row p-3 bg-slate-700 bg-opacity-40 rounded-3xl justify-between items-center">
-                                <div class="bg-white bg-opacity-80 rounded-full flex items-center justify-center size-8">
-                                    <i class="bi bi-battery-charging"></i>
-                                </div>
-                                <div>
-                                    <p>80%</p>
-                                    <p>Battery charge</p>
-                                </div>
+                            <div>
+                                <p>75m<sup>2</sup></p>
+                                <p>Area cleaned</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-row p-3 bg-slate-700 bg-opacity-40 rounded-3xl justify-between items-center">
+                            <div class="bg-white bg-opacity-80 rounded-full flex items-center justify-center size-8">
+                                <i class="fa-regular fa-clock" style="color: #000000;"></i>
+                            </div>
+                            <div>
+                                <p>30 min</p>
+                                <p>Cleaning time</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-row p-3 bg-slate-700 bg-opacity-40 rounded-3xl justify-between items-center">
+                            <div class="bg-white bg-opacity-80 rounded-full flex items-center justify-center size-8">
+                                <i class="bi bi-battery-charging"></i>
+                            </div>
+                            <div>
+                                <p>80%</p>
+                                <p>Battery charge</p>
                             </div>
                         </div>
                     </div>
-                    <div class="flex rounded-xl flex-col w-5/12
+                </div>
+        </div>
+        <div  class="col-span-1 row-auto bg-cyan-700">
+            <div class="flex rounded-xl flex-col w-5/12
                     bg-no-repeat bg-contain bg-[url('../assets/bulb.avif')]">
                         <div" class="rounded-xl flex flex-row items-center justify-between">
                             <div class="flex flex-row space-x-2">
@@ -185,128 +255,52 @@
                             </div>
                         </div>
                     </div>
+        </div>
+        <div  class="col-span-1 row-auto bg-cyan-800">
+            <div class="flex rounded-xl bg-blue-400 p-3 flex-col h-2/5">
+                <div class=" flex justify-between">
+                    <div>
+                        <p>Speakers</p>
+                        <p>playing</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-toggle-on" style="color: #000000;"></i>
+                    </div>
                 </div>
-            </div>
-            <div class="flex flex-col">
-                <div class="flex rounded-xl bg-slate-500  p-3 flex-col h-3/5">
-                    <div class="flex flex-row items-center justify-between">
-                        <p>Rooms</p>
-                        <div class="border-solid border-slate-950 border-2 rounded-xl size-4 flex justify-center items-center">
-                            <i class="fa-solid fa-info fa-2xs" style="color: #000000;"></i>
+                 <div class="flex flex-col items-center">
+                    <div class=" box-border w-28 h-28 border-solid rounded-full border-1
+                        bg-cover bg-local bg-center bg-no-repeat bg-[url('../assets/cr.jpg')]">
+                    </div>
+                    <div>
+                        <p>
+                            Take Me Home Country Roads  
+                        </p>
+                        <p> 
+                            John Denver
+                        </p>
+                    </div>
+                 </div>
+                <div class="flex justify-evenly">
+                    <div>
+                        <i class="bi bi-repeat"></i>
+                    </div>
+                    <div class="flex justify-evenly">
+                        <div>
+                            <i class="bi bi-skip-backward"></i>
+                        </div>
+                        <div>
+                            <i class="bi bi-pause-circle"></i>
+                        </div>
+                        <div>
+                            <i class="bi bi-skip-forward"></i>
                         </div>
                     </div>
                     <div>
-                        <div class="rounded-xl flex justify-between items-center">
-                            <div class="flex justify-evenly items-center">
-                                <div class="bg-white bg-opacity-80 rounded-full flex items-center justify-center size-8">
-                                    <i class="fa-solid fa-bed" style="color: #000000;"></i>
-                                </div>
-                                <div>
-                                    <p>Bedroom</p>
-                                    <p>3 device(-s)</p>
-                                </div>
-                            </div>
-                            <div>
-                                <i class="fa-solid fa-chevron-right" style="color: #000000;"></i>
-                            </div>
-                        </div>
-                        <div class="rounded-xl flex justify-between items-center">
-                            <div class="flex justify-evenly items-center">
-                                <div class="bg-white bg-opacity-80 rounded-full flex items-center justify-center size-8">
-                                    <i class="fa-solid fa-utensils" style="color: #000000;"></i>
-                                </div>
-                                <div>
-                                    <P>Kitchen</P>
-                                    <P>2 device(-s)</P>
-                                </div>
-                            </div>
-                            <div>
-                                <i class="fa-solid fa-chevron-right" style="color: #000000;"></i>
-                            </div>
-                        </div>
-                        <div class="flex justify-between items-center  bg-white bg-opacity-50 rounded-full">
-                            <div class="flex justify-evenly items-center">
-                                <div class="bg-white bg-opacity-80 rounded-full flex items-center justify-center size-8">
-                                    <i class="fa-solid fa-couch" style="color: #000000;"></i>
-                                </div>
-                                <div>
-                                    Living room
-                                </div>
-                            </div>
-                            <div>
-                                <i class="fa-solid fa-chevron-right" style="color: #000000;"></i>
-                            </div>
-                        </div>
-                        <div class="rounded-xl flex justify-between items-center">
-                            <div class="flex flex-row items-center">
-                                <div class="bg-white bg-opacity-80 rounded-full flex items-center justify-center size-8">
-                                    <i class="fa-solid fa-bath" style="color: #000000;"></i>
-                                </div>
-                                <div>
-                                    <p>Bedroom</p>
-                                    <p>1 device(-s)</p>
-                                </div>
-                            </div>
-                            <div>
-                                <i class="fa-solid fa-chevron-right" style="color: #000000;"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex bg-black rounded-full justify-center">
-                        <div>
-                            <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
-                        </div>
-                        <p class="text-white">ADD Room</p>
-                    </div>
-                </div>
-                <div class="flex rounded-xl bg-blue-400 p-3 flex-col h-2/5">
-                    <div class=" flex justify-between">
-                        <div>
-                            <p>Speakers</p>
-                            <p>playing</p>
-                        </div>
-                        <div>
-                            <i class="fa-solid fa-toggle-on" style="color: #000000;"></i>
-                        </div>
-                    </div>
-                     <div class="flex flex-col items-center">
-                        <div class=" box-border w-28 h-28 border-solid rounded-full border-1
-                            bg-cover bg-local bg-center bg-no-repeat bg-[url('../assets/cr.jpg')]">
-                        </div>
-                        <div>
-                            <p>
-                                Take Me Home Country Roads  
-                            </p>
-                            <p> 
-                                John Denver
-                            </p>
-                        </div>
-                     </div>
-                    <div class="flex justify-evenly">
-                        <div>
-                            <i class="bi bi-repeat"></i>
-                        </div>
-                        <div class="flex justify-evenly">
-                            <div>
-                                <i class="bi bi-skip-backward"></i>
-                            </div>
-                            <div>
-                                <i class="bi bi-pause-circle"></i>
-                            </div>
-                            <div>
-                                <i class="bi bi-skip-forward"></i>
-                            </div>
-                        </div>
-                        <div>
-                            <i class="bi bi-share"></i>
-                        </div>
+                        <i class="bi bi-share"></i>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- end of pic div  -->
-    </div>
-    <!-- end of main div  -->
+      </div>
 </body>
-
 </html>
